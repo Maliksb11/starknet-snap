@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.6.0](https://github.com/Maliksb11/starknet-snap/compare/get-starknet-v1.5.1...get-starknet-v1.6.0) (2025-03-31)
+
+
+### Features
+
+* Add backward compatible with get-starknet v3 ([#400](https://github.com/Maliksb11/starknet-snap/issues/400)) ([8bf8463](https://github.com/Maliksb11/starknet-snap/commit/8bf8463e0aefd3eb9e59f3cbcb44493e5de2fb5f))
+* add get starknet package ([#186](https://github.com/Maliksb11/starknet-snap/issues/186)) ([c44c00d](https://github.com/Maliksb11/starknet-snap/commit/c44c00d3340191d4b276579556c613308c32cc1d))
+* Add get-starknet v4 support ([#400](https://github.com/Maliksb11/starknet-snap/issues/400)) ([8bf8463](https://github.com/Maliksb11/starknet-snap/commit/8bf8463e0aefd3eb9e59f3cbcb44493e5de2fb5f))
+* clean up and update dependency ([#259](https://github.com/Maliksb11/starknet-snap/issues/259)) ([fcb83e1](https://github.com/Maliksb11/starknet-snap/commit/fcb83e128fd4e483cdf9f4670e4e70e1d3876f7a))
+* Enable get-starknet to watch account change when multiple account supported in SNAP. ([#505](https://github.com/Maliksb11/starknet-snap/issues/505)) ([c129f1c](https://github.com/Maliksb11/starknet-snap/commit/c129f1c5d48f2a310c1c9ecb521b5fb9ed11f60c))
+* Enable Local Testing of Webpack Federation Module (get-starknet remoteEntry.js) ([#249](https://github.com/Maliksb11/starknet-snap/issues/249)) ([b06f9f2](https://github.com/Maliksb11/starknet-snap/commit/b06f9f26e6fa5be001075d128032064444990c17))
+* event handling in get-starknet ([#413](https://github.com/Maliksb11/starknet-snap/issues/413)) ([009e8d4](https://github.com/Maliksb11/starknet-snap/commit/009e8d4f4bd549007e36545cecb9efd21becb314))
+* sf-640 revamp cicd workflow ([#255](https://github.com/Maliksb11/starknet-snap/issues/255)) ([6faaf02](https://github.com/Maliksb11/starknet-snap/commit/6faaf024bd0b8112e5cea930a2bf8aad564a9454))
+* show upgrade dialog on get-starknet calls ([#247](https://github.com/Maliksb11/starknet-snap/issues/247)) ([4d8a2d7](https://github.com/Maliksb11/starknet-snap/commit/4d8a2d7948459033c91991c357f3fe2f620fe46b))
+* upgrade to sarknet.js v6.11.0 ([#296](https://github.com/Maliksb11/starknet-snap/issues/296)) ([e298244](https://github.com/Maliksb11/starknet-snap/commit/e298244a5e68e2809ab6367330e104c53ca5c861))
+
+
+### Bug Fixes
+
+* Add "to be deprecated" message for the `get-starknet@3.3.0` properties (https://github.com/Consensys/starknet-snap/issues/488) ([4e76a73](https://github.com/Consensys/starknet-snap/commit/4e76a7379593896b0190fda44e7f8143b463c98c)) ([4e76a73](https://github.com/Maliksb11/starknet-snap/commit/4e76a7379593896b0190fda44e7f8143b463c98c))
+* Fix address not update when network change ([#366](https://github.com/Maliksb11/starknet-snap/issues/366)) ([c96f75e](https://github.com/Maliksb11/starknet-snap/commit/c96f75eb6c95b76513e3a0488d7ccdb3d59e5a71))
+* get-starknet execute txn not working in firefox ([#242](https://github.com/Maliksb11/starknet-snap/issues/242)) ([634152d](https://github.com/Maliksb11/starknet-snap/commit/634152d885e14d5c41e2caabfd8f45337bbb66c4))
+* Remove 'Method not supported' exception in 'on' and 'off' event handlers for get-starknet v4 compatibility ([#402](https://github.com/Maliksb11/starknet-snap/issues/402)) ([bd6b66d](https://github.com/Maliksb11/starknet-snap/commit/bd6b66d2cba8382711adbe6a6312f295e22c64b6))
+* resolve issue in cicd pipeline ([#258](https://github.com/Maliksb11/starknet-snap/issues/258)) ([35f21e6](https://github.com/Maliksb11/starknet-snap/commit/35f21e6da20e69420bc8763fd5a4a84f192fbc87))
+* SNAP version does not auto update in get-starknet ([b91e762](https://github.com/Maliksb11/starknet-snap/commit/b91e762a33c18345df9ae2501999c61b0b1a497f))
+
 ## [1.5.1](https://github.com/Consensys/starknet-snap/compare/get-starknet-v1.5.0...get-starknet-v1.5.1) (2025-03-04)
 
 
